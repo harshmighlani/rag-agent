@@ -14,12 +14,18 @@ The agent loads local PDFs, chunks them, embeds the chunks, stores them into Chr
 
 🚀 Features
 
-✅ Load all PDFs from the current directory
+✅ Load all PDFs from the current directory 
+
 ✅ Chunk documents using LangChain’s recursive splitter
+
 ✅ Generate 1024-dim embeddings using BAAI
+
 ✅ Store vectors in a local ChromaDB SQLite database
+
 ✅ Retrieve relevant chunks using similarity search
+
 ✅ Answer questions via Groq’s LLaMA-3.1 model
+
 ✅ Fully interactive question→answer agent loop
 
 📂 Project Structure

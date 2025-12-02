@@ -31,8 +31,11 @@ The agent loads local PDFs, chunks them, embeds the chunks, stores them into Chr
 📂 Project Structure
 project/
 │── rag_agent.py           # Main RAG pipeline script
+
 │── .env                   # Contains GROQ_API_KEY
+
 │── sample.pdf             # Your documents (any PDFs placed here are loaded)
+
 │── rag_sqlite_db/         # ChromaDB SQLite vector store (created on first run)
 
 🧩 Requirements
